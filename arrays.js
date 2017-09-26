@@ -8,7 +8,7 @@ function destructivelyAddElementToBeginningOfArray(array,n){
 function addElementToEndOfArray(array,n){
   return [...array,n]
 }
-funciton destructivelyAddElementToEndOfArray(array,n){
+function destructivelyAddElementToEndOfArray(array,n){
   return array.push(n)
 }
 function accessElementInArray(array,n){
